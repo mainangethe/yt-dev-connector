@@ -1,0 +1,61 @@
+/*
+File: Style
+Description: Main stylesheet
+Author: Mradi Kenya <hello@mradi.co.ke>
+Date: 19/Jan/2021
+*/
+
+/**
+Table of Contents
+1. Imports
+2. Elements
+**/
+
+
+
+
+
+
+/* 1. Imports
+------------------------------------ */
+@import 'resets';
+@import 'config';
+@import 'utils';
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import 'navbar';
+@import 'hero';
+
+
+
+
+
+
+/* 2. Elements
+------------------------------------ */
+body  {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+
+  background-color: white;
+  color: #333;
+}
+
+
+
+a  {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+
+
+ul  {
+  list-style: none;
+}
+
+
+
+img  {
+  width: 100%;
+}

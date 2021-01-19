@@ -1,0 +1,54 @@
+/*
+File: Navbar
+Description: Navbar styles
+Author: Mradi Kenya <hello@mradi.co.ke>
+Date: 19/Jan/2021
+*/
+
+
+/**
+Table of Contents
+1. navbar
+
+**/
+
+
+
+
+
+/* 1. navbar
+------------------------------------ */
+.navbar  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 0.7rem 2rem;
+
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid $primary-color;
+
+  z-index: 1;
+  opacity: 0.9;
+
+
+  ul  {
+    display: flex;
+  }
+
+
+
+  a  {
+    color: set-text-color($dark-color);
+
+    padding: 0.45rem;
+    margin: 0 0.25rem;
+
+
+    &:hover  {
+      color: $primary-color;
+    }
+  }
+}
